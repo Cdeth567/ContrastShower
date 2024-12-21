@@ -165,7 +165,7 @@ class _MyHomePageState extends State<ActiveSessionScreen> with SingleTickerProvi
   soundPlay() {
     AudioCache.instance = AudioCache(prefix: '');
     final player = AudioPlayer();
-    player.play(AssetSource('lib/templates/middleAssignment/assets/signal.mp3'));
+    player.play(AssetSource('lib/assets/signal.mp3'));
   }
 
   void startTimer() {
